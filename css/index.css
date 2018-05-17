@@ -1,0 +1,75 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box; }
+
+body, html {
+  width: 100%;
+  height: 100%;
+  margin: 0; }
+
+body {
+  box-sizing: border-box;
+  padding-top: 11.264rem; }
+
+header {
+  height: 2.73067rem;
+  background: #148ad2;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  padding-top: 0.87467rem;
+  padding-left: 0.55467rem;
+  padding-right: 0.55467rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  header img {
+    height: 0.96rem;
+    width: 0.85333rem; }
+  header i {
+    font-size: 0.96rem !important;
+    color: white; }
+
+.banner {
+  position: fixed;
+  top: 2.73067rem;
+  height: 8.53333rem;
+  width: 100%; }
+  .banner img {
+    width: 100%; }
+
+main {
+  height: 100%;
+  overflow-y: auto; }
+  main ul li {
+    border-bottom: 2px solid #f2f2f2;
+    height: 5.54667rem;
+    padding-top: 0.81067rem;
+    font-size: 0.64rem; }
+    main ul li h3 {
+      line-height: 1.10933rem;
+      font-weight: 100;
+      line-height: 1.10933rem;
+      margin-left: 0.896rem;
+      margin-right: 1.19467rem; }
+    main ul li section {
+      height: 2.38933rem;
+      display: flex;
+      align-items: center;
+      margin-left: 0.896rem;
+      margin-right: 1.19467rem;
+      color: #b2b2b2; }
+      main ul li section i {
+        font-size: 0.704rem !important; }
+      main ul li section i:nth-of-type(1) {
+        margin-right: 0.384rem; }
+      main ul li section i:nth-of-type(2) {
+        margin-right: 0.384rem;
+        margin-left: 1.06667rem; }
+      main ul li section span {
+        font-size: 0.384rem; }
+
+/*# sourceMappingURL=index.css.map */
